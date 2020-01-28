@@ -13,7 +13,7 @@
 题目打卡：
 
 | 题号 | 题目名称 | 题目难度 | 使用语言 | 完成时间 |
-| - | :-: | :-: | :-: | :-: | -: |
+| - | :-: | :-: | :-: | -: |
 | 112  |  Path Sum II | Easy |  C  | 2020/1/28 |
 | 328  |Odd Even Linked List| Medium | C | 2020/1/28 |
 | 1137 |  N-th Tribonacci Number | Easy | C | 2020/1/28 |
