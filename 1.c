@@ -70,10 +70,10 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 }
 
 /*
-    思路为排序后查询，需要开辟空间来存储原数组防止丢失索引
-    查询采用一个for循环+二分查找
-    排序和查询的时间复杂度都为O(nlogn),算法的空间复杂度为O(n)
-    (这个二分查找代码的边界条件有问题aaaaa，真的调不出来，代码思路在这，凑合着看)
+    思路为排序后搜索，需要开辟空间来存储原数组防止丢失索引
+    搜索采用一个for循环+二分搜索
+    排序和搜索的时间复杂度都为O(nlogn),算法的空间复杂度为O(n)
+    (这个二分搜索代码的边界条件有问题aaaaa，真的调不出来，代码思路在这，凑合着看)
 */
 int compare(void* a, void* b){
     return *(int*)a - *(int*)b;
@@ -126,8 +126,8 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 }
 
 /*
-    上一个思路的改进，改进点为查询
-    因为qsort的时间复杂度最差为O(nlogn)，但查询一定是O(nlogn)所以需要改进
+    上一个思路的改进，改进点为搜索
+    因为qsort的时间复杂度最差为O(nlogn)，但搜索一定是O(nlogn)所以需要改进
     将二分法改为双指针遍历的方法，时间复杂度为O(n)
     算法整体的时间复杂度还是O(nlogn),空间复杂度为O(n)
 
