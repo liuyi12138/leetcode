@@ -1,4 +1,4 @@
-//暴力翻转，每次挪动k的数的位置 空间复杂度为 O(1) 
+//暴力翻转，每次挪动k个数的位置 空间复杂度为 O(1) 
 void rotate(int* nums, int numsSize, int k){
     if(numsSize > 1 && k != 0){
         int temp;
