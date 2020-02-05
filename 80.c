@@ -1,8 +1,8 @@
 int removeDuplicates(int* nums, int numsSize){
-    if(numsSize <= 1)
+    if(numsSize <= 2)
         return numsSize;
-    int count = 1;
-    for(int i = 1; i < numsSize; ++i){
+    int count = 2;
+    for(int i = 2; i < numsSize; ++i){
         if(nums[i] != nums[count-2]){
             nums[count] = nums[i];
             count++;
