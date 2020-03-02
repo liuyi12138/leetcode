@@ -17,7 +17,7 @@ public:
                 int tx=x+dir[i][0];
                 int ty=y+dir[i][1];
                 if(tx>=0&&ty>=0&&tx<n&&ty<m){
-                    if(g[x][y]-1==i){
+                    if(g[x][y]-1==i){   
                         if(dp[tx][ty]>dp[x][y]){
                             dp[tx][ty]=dp[x][y];
                             q.push({tx,ty});
