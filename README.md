@@ -3,7 +3,7 @@
 * 正巧2020武汉肺炎只能在家，就刷刷题这样子不然过于无聊
 * 后续的一年也要坚持啊!
 * 删除了后面的题目打卡和专题打卡，感觉没啥用
-* 发现了一个(很nb的刷题项目)[https://github.com/labuladong/fucking-algorithm] ,之后刷题很根据这个来进行
+* 发现了一个[很nb的刷题项目](https://github.com/labuladong/fucking-algorithm),之后刷题很根据这个来进行
 
 每日打卡:
 
